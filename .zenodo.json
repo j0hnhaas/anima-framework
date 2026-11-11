@@ -1,7 +1,7 @@
 {
   "upload_type": "dataset",
   "title": "ANIMA – AI Navigator for Informed Mental Health Applications",
-  "description": "An open European framework for AI in psychology and mental health. ANIMA brings together WHO global and WHO Europe recommendations, EU law and national law (starting with Austria) along three axes: regulatory layer, usage context and spectrum from wellbeing to diagnostics and treatment.",
+  "description": "An open European framework for AI in psychology. ANIMA shows what applies, what is recommended and what is known when AI enters psychological work or affects people psychologically. Law, guidance of public bodies and standards of professional bodies are mapped onto one model: the triad of client, practitioner and AI system, with its edges, flows, configurations, frame and addressees. Covers psychology as a profession and psychological effects of AI, also without any practitioner.",
   "creators": [
     {
       "name": "Haas, John G.",
@@ -14,13 +14,17 @@
   "keywords": [
     "artificial intelligence",
     "psychology",
+    "psychological effects",
     "mental health",
     "digital health",
+    "triad",
+    "client",
+    "practitioner",
     "AI Act",
+    "regulation",
+    "professional ethics",
     "WHO",
     "European Union",
-    "Austria",
-    "regulation",
-    "ethics"
+    "Austria"
   ]
 }

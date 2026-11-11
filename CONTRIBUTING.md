@@ -1,13 +1,13 @@
 # Contributing to ANIMA
 
-Thank you for helping. ANIMA lives from the expertise of psychologists, psychotherapists, lawyers, developers and people with lived experience.
+Thank you for helping. ANIMA lives from the expertise of psychologists, lawyers, researchers, developers and people with lived experience.
 
 > **Never share personal health data.** Do not post information about clients, patients or other identifiable people in issues, pull requests or files, not even anonymised case examples, unless they are fully fictional.
 
 ## Ways to contribute
 
 - **Propose a source:** open an issue with the document, its version and a link.
-- **Summarise a source:** add or improve a source file in the matching pillar folder (see [sources/README.md](sources/README.md)).
+- **Add a source:** write a source file in the matching pillar folder and map its requirements onto the triad (see [sources/README.md](sources/README.md)).
 - **Add a country:** see [sources/README.md](sources/README.md#adding-a-country).
 - **Report an error:** law changes. If something is outdated or wrong, open an issue.
 
@@ -17,9 +17,10 @@ Please read the [methodology](docs/methodology.md) first and use the [source sum
 
 1. **Cite precisely.** Name the document, version or date, article or section, and link to the official source.
 2. **Use your own words.** Summarise; quote only short passages and mark them as quotes. This is especially important for WHO documents (CC BY-NC-SA 3.0 IGO).
-3. **Separate law from recommendation.** Make clear whether a requirement is binding or guidance.
-4. **Stay neutral.** No promotion of specific products or vendors.
-5. **Date your work.** Note the date on which you checked a source ("checked: YYYY-MM-DD").
+3. **Separate law from recommendation.** Set pillar and bindingness correctly; never present a recommendation as an obligation.
+4. **Map carefully.** Place each requirement on the triad following the rules in the [methodology](docs/methodology.md#3-mapping-onto-the-triad); explain non-obvious mappings in a note.
+5. **Stay neutral.** No promotion of specific products or vendors.
+6. **Date your work.** Note the date on which you checked a source ("checked: YYYY-MM-DD").
 
 ## Checking your contribution
 
