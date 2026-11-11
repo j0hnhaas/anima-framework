@@ -28,7 +28,11 @@ ANIMA is in its build-up phase. Content counts as `reviewed` only after a second
 
 ### Why are psychotherapy and psychiatry not covered?
 
-ANIMA focuses on psychology as a profession and on psychological effects of AI. Psychotherapy and psychiatry are not covered as professions – their own laws and professional bodies are out of scope. Their settings are covered where psychological effects of AI are concerned, for example when a person in psychotherapy uses a chatbot between sessions. See the [scope](scope.md#boundary-to-psychotherapy-and-psychiatry).
+ANIMA focuses on psychology as a profession, psychological research with AI and psychological effects of AI. Psychotherapy and psychiatry are not covered as professions – their own laws and professional bodies are out of scope. Their settings are covered where psychological effects of AI are concerned, for example when a person in psychotherapy uses a chatbot between sessions. See the [scope](scope.md#boundary-to-psychotherapy-and-psychiatry).
+
+### Does ANIMA cover research?
+
+Yes, in two ways that are kept apart. The **rules for conducting** psychological research with AI – research ethics, ethics review, consent of participants, data protection – are covered like any other requirement. What research **shows** about AI and its psychological effects belongs to the planned evidence pillar. See the [scope](scope.md#research-as-an-activity-and-research-as-evidence).
 
 ### How are sources selected?
 
@@ -49,6 +53,7 @@ Haas, J. G. (2026). *ANIMA – AI Navigator for Informed Mental Health Applicati
 - What applies when I use AI-supported tests or scoring in psychological assessment?
 - What should I consider when clients use chatbots between sessions?
 - May I recommend an app to a client, and what does that mean for my responsibility?
+- What applies when I use AI in a study, or study the effects of AI on participants?
 
 ## For people who use AI on their own *(answers planned)*
 

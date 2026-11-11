@@ -58,6 +58,8 @@ The terms used in ANIMA, in alphabetical order. Each entry gives a short definit
 
 **Psychological effects of AI** – effects of AI systems on people's experience and behaviour, whether intended or not, and whether or not a practitioner is involved. → [Scope, section 4](scope.md#4-definitions)
 
+**Psychological research with AI** – research in psychology that uses AI systems or studies their psychological effects. ANIMA covers the rules for conducting it (research as an activity); its findings belong to the evidence pillar (research as evidence). → [Scope, section 1](scope.md#research-as-an-activity-and-research-as-evidence)
+
 **Requirement** – a single obligation, prohibition or recommendation taken from a source; the unit that is mapped onto the triad. → [Methodology, section 3](methodology.md#3-mapping-onto-the-triad)
 
 **Scoping review** – a form of evidence synthesis that maps what exists on a topic; ANIMA's search follows its methods. → [Search protocol, section 2](search-protocol.md#2-methodological-basis)
@@ -92,3 +94,5 @@ Fixed German equivalents for the website translation (see [#23](https://github.c
 | navigator | Navigator | proposed |
 | practice guide | Praxisleitfaden | proposed |
 | psychological effects of AI | psychologische Wirkungen von KI | proposed |
+| psychological research with AI | psychologische Forschung mit KI | proposed |
+| study participant | Studienteilnehmer:in | proposed |
