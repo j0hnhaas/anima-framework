@@ -2,6 +2,8 @@
 
 All codes and values used in ANIMA are defined here. Source files, the navigator and the data files use **only** these values. New values are added via pull request (see [GOVERNANCE.md](../GOVERNANCE.md)).
 
+The same values are defined for machines in [schema/source.schema.json](../schema/source.schema.json). Both files must be changed together.
+
 ## Sources
 
 ### Pillar
@@ -69,6 +71,17 @@ The model is described in [model/README.md](../model/README.md).
 | `4` | client uses AI covertly |
 | `5` | practitioner uses AI covertly |
 | `6` | no direct client contact |
+
+Edges that are active in each configuration. The main edge of a requirement must be active in every configuration listed for it; the validation script checks this.
+
+| Configuration | Active edges |
+|---|---|
+| `1` | `C-P`, `C-AI`, `P-AI` |
+| `2` | `C-P`, `P-AI` |
+| `3` | `C-AI` |
+| `4` | `C-P`, `C-AI` |
+| `5` | `C-P`, `P-AI` |
+| `6` | `P-AI`, `F-AI` |
 
 ### Addressee
 

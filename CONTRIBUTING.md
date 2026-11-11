@@ -21,6 +21,18 @@ Please read the [methodology](docs/methodology.md) first and use the [source sum
 4. **Stay neutral.** No promotion of specific products or vendors.
 5. **Date your work.** Note the date on which you checked a source ("checked: YYYY-MM-DD").
 
+## Checking your contribution
+
+Source files are checked automatically in every pull request. You can run the same checks on your computer (Python 3.10 or newer):
+
+```bash
+pip install -r requirements.txt
+python scripts/validate.py   # checks all source files
+python scripts/build.py      # updates the navigator in navigator/ and data/
+```
+
+Commit the updated navigator files together with your source file.
+
 ## Workflow
 
 1. Fork the repository and create a branch.

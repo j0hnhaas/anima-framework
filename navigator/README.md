@@ -33,6 +33,11 @@ Allowed values are defined in [docs/vocabulary.md](../docs/vocabulary.md).
 
 The navigator also shows **gaps**: combinations of edge, flow and configuration for which no source assigns a duty. Gaps are findings in their own right – they show where regulation or guidance is missing.
 
-## Status
+## The generated navigator
 
-The navigator is generated automatically from the source files. The generator follows with the data structure in a later step of the [roadmap](https://github.com/j0hnhaas/anima-framework/issues/10). The machine-readable version will be placed in [`data/`](../data/).
+The navigator is generated from the source files by `scripts/build.py`:
+
+- **[requirements.md](requirements.md)** – all requirements as a table, with the coverage of the triad and its gaps
+- **[data/navigator.json](../data/navigator.json)** and **[data/navigator.csv](../data/navigator.csv)** – the same content, machine-readable
+
+Do not edit these files by hand. Every pull request checks that they are up to date.

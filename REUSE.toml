@@ -24,7 +24,7 @@ SPDX-License-Identifier = "CC0-1.0"
 
 # Code: website layout and tools
 [[annotations]]
-path = ["_layouts/**", "scripts/**"]
+path = ["_layouts/**", "scripts/**", "schema/**", "tests/**", "requirements.txt"]
 precedence = "override"
 SPDX-FileCopyrightText = "2026 ANIMA contributors"
 SPDX-License-Identifier = "EUPL-1.2"
