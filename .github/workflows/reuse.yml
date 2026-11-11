@@ -17,4 +17,4 @@ jobs:
         with:
           persist-credentials: false
       - name: Check licence information
-        uses: fsfe/reuse-action@v4
+        uses: fsfe/reuse-action@v6
