@@ -83,6 +83,10 @@ This DOI always points to the latest version. Every release is archived on [Zeno
 
 **Mag. John G. Haas** – initiator and maintainer · ORCID [0000-0002-4591-5015](https://orcid.org/0000-0002-4591-5015)
 
+## Acknowledgements
+
+The initial structure and documentation of ANIMA were drafted with the assistance of AI models – Claude (Anthropic) and ChatGPT (OpenAI) – and reviewed, revised and approved by the maintainer. AI models are tools, not authors; responsibility for all content lies with the maintainers. Content summaries are verified against the original sources in accordance with the [methodology](docs/methodology.md#7-use-of-ai-tools).
+
 ## Licence
 
 - **Content** (texts, guides, checklists): [CC BY 4.0](LICENSES/CC-BY-4.0.txt)
