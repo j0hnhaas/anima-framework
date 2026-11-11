@@ -4,12 +4,24 @@ This document defines what ANIMA covers. The model every source is mapped onto i
 
 ## 1. Subject
 
-ANIMA covers two fields:
+ANIMA covers three fields:
 
 1. **Psychology as a profession** – psychologists who use AI in their work, or whose clients use AI. This includes clinical and health psychology as well as other fields of psychological work, such as psychological assessment, expert opinions, work, school and traffic psychology.
 2. **Psychological effects of AI** – how AI systems affect people's experience and behaviour, for example trust, dependence, wellbeing, self-image or decisions. This includes the use of AI **without any practitioner**, such as general-purpose chatbots or wellness apps.
+3. **Psychological research with AI** – research in psychology that uses AI systems, for example to collect, analyse or generate data or as the intervention being studied, and research on the psychological effects of AI. ANIMA covers the **rules for conducting** such research: research ethics, ethics review and oversight, informed consent of participants, data protection and transparency.
 
-Both fields meet in one model: the triad of client, practitioner and AI system. Psychological effects can occur at every edge of the triad – for the client through the AI system (C–AI), for the practitioner through the AI system (P–AI), and in the relationship between client and practitioner (C–P).
+All three fields meet in one model: the triad of client, practitioner and AI system. Psychological effects can occur at every edge of the triad – for the client through the AI system (C–AI), for the practitioner through the AI system (P–AI), and in the relationship between client and practitioner (C–P). In research, the researcher takes the place of the practitioner and the study participant the place of the client; ethics committees, research institutions and funders belong to the frame (see the [model](../model/README.md#1-nodes)).
+
+### Research as an activity and research as evidence
+
+ANIMA looks at research in two ways and keeps them apart:
+
+- **Research as an activity** – how psychological research with AI must be conducted. The rules come from law, public bodies and professional bodies, for example data protection law, guidance on ethics review or codes of research ethics. They belong to the pillars law, guidance and professional. This is the third field above.
+- **Research as evidence** – what research shows about AI in psychology and its psychological effects. Studies and reviews belong to the evidence pillar (section 2).
+
+Example: guidance on how an ethics committee should review a study of a mental-health chatbot belongs to the guidance pillar; the results of that study belong to the evidence pillar.
+
+Rules for **health research in general** (e.g. clinical trials of medicines) are covered only where they apply to psychological research or to research on the psychological effects of AI.
 
 ### Boundary to psychotherapy and psychiatry
 
@@ -49,6 +61,8 @@ The boundary between wellbeing and a medical purpose often depends on the intend
 **Psychology.** The science of human experience and behaviour and the profession based on it. In ANIMA, psychology as a profession means the work of psychologists (see *practitioner*).
 
 **Psychological effects of AI.** Effects of AI systems on people's experience and behaviour, whether intended or not, and whether or not a practitioner is involved.
+
+**Psychological research with AI.** Research in psychology in which AI systems are used – to collect, analyse or generate data, or as the intervention being studied – or in which the psychological effects of AI are studied. In ANIMA, the term refers to the conduct of such research; its findings belong to the evidence pillar.
 
 **Client, practitioner, AI system.** The three nodes of the triad, defined in the [model](../model/README.md#1-nodes). In short: the *client* is the person with or about whom psychological work is done, or who is psychologically affected by an AI system; the *practitioner* is a psychologist who carries professional responsibility; the *AI system* is defined as in Art. 3(1) of the EU AI Act (Regulation (EU) 2024/1689).
 

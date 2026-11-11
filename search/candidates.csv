@@ -1,0 +1,35 @@
+candidate_id,title,issuer,year,url,pillar,jurisdiction,document_type,language,identified_via,search_id,date_identified,title_screening,full_text_screening,exclusion_reason,source_id,screened_by,notes
+CAND-0001,Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act),European Parliament and Council of the European Union,2024,https://eur-lex.europa.eu/eli/reg/2024/1689/oj,law,eu,law,en,preliminary,,2026-11-11,pending,pending,,,,check consolidated version and amendments
+CAND-0002,Regulation (EU) 2016/679 – General Data Protection Regulation (GDPR),European Parliament and Council of the European Union,2016,https://eur-lex.europa.eu/eli/reg/2016/679/oj,law,eu,law,en,preliminary,,2026-11-11,pending,pending,,,,
+CAND-0003,Regulation (EU) 2017/745 on medical devices (MDR),European Parliament and Council of the European Union,2017,https://eur-lex.europa.eu/eli/reg/2017/745/oj,law,eu,law,en,preliminary,,2026-11-11,pending,pending,,,,
+CAND-0004,Regulation (EU) 2025/327 on the European Health Data Space (EHDS),European Parliament and Council of the European Union,2025,https://eur-lex.europa.eu/eli/reg/2025/327/oj,law,eu,law,en,preliminary,,2026-11-11,pending,pending,,,,
+CAND-0005,Directive (EU) 2024/2853 on liability for defective products,European Parliament and Council of the European Union,2024,https://eur-lex.europa.eu/eli/dir/2024/2853/oj,law,eu,law,en,preliminary,,2026-11-11,pending,pending,,,,
+CAND-0006,"Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225)",Council of Europe,2024,,law,europe,treaty,en,preliminary,,2026-11-11,pending,pending,,,,check ratification status
+CAND-0007,Psychologengesetz 2013 (PlG),Republic of Austria,2013,,law,at,law,de,preliminary,,2026-11-11,pending,pending,,,,
+CAND-0008,Datenschutzgesetz (DSG),Republic of Austria,,,law,at,law,de,preliminary,,2026-11-11,pending,pending,,,,
+CAND-0009,Medizinproduktegesetz 2021 (MPG),Republic of Austria,2021,,law,at,law,de,preliminary,,2026-11-11,pending,pending,,,,
+CAND-0010,Gesundheitstelematikgesetz 2012 (GTelG),Republic of Austria,2012,,law,at,law,de,preliminary,,2026-11-11,pending,pending,,,,
+CAND-0011,Austrian implementation of the AI Act (competent authorities and procedures),Republic of Austria,,,law,at,law,de,preliminary,,2026-11-11,pending,pending,,,,to be researched; may still be a proposal
+CAND-0012,Ethics and governance of artificial intelligence for health,World Health Organization,2021,,guidance,global,guideline,en,preliminary,,2026-11-11,pending,pending,,,,
+CAND-0013,Ethics and governance of artificial intelligence for health: guidance on large multi-modal models,World Health Organization,2024,,guidance,global,guideline,en,preliminary,,2026-11-11,pending,pending,,,,check for updated edition
+CAND-0014,Regulatory considerations on artificial intelligence for health,World Health Organization,2023,,guidance,global,guideline,en,preliminary,,2026-11-11,pending,pending,,,,
+CAND-0015,Recommendation on the Ethics of Artificial Intelligence,UNESCO,2021,,guidance,global,recommendation,en,preliminary,,2026-11-11,pending,pending,,,,
+CAND-0016,OECD AI Principles (Recommendation of the Council on Artificial Intelligence),OECD,2019,,guidance,global,recommendation,en,preliminary,,2026-11-11,pending,pending,,,,updated 2024
+CAND-0017,Regional digital health action plan for the WHO European Region 2023–2030,WHO Regional Office for Europe,2022,,guidance,europe,report,en,preliminary,,2026-11-11,pending,pending,,,,
+CAND-0018,Guidelines on prohibited artificial intelligence practices,European Commission,2025,,guidance,eu,guideline,en,preliminary,,2026-11-11,pending,pending,,,,
+CAND-0019,Guidelines on the definition of an artificial intelligence system,European Commission,2025,,guidance,eu,guideline,en,preliminary,,2026-11-11,pending,pending,,,,
+CAND-0020,MDCG 2019-11 Guidance on qualification and classification of software,Medical Device Coordination Group,2019,,guidance,eu,guideline,en,preliminary,,2026-11-11,pending,pending,,,,check latest revision
+CAND-0021,Guidelines for psychologists on digital and internet-based work,Austrian Federal Ministry responsible for health,,,guidance,at,guideline,de,preliminary,,2026-11-11,pending,pending,,,,to be researched
+CAND-0022,Information on the AI Act (AI service desk),RTR – Rundfunk und Telekom Regulierungs-GmbH,,,guidance,at,other,de,preliminary,,2026-11-11,pending,pending,,,,to be researched
+CAND-0023,Guidance on data protection in health and AI,Datenschutzbehörde (Austria),,,guidance,at,guideline,de,preliminary,,2026-11-11,pending,pending,,,,to be researched
+CAND-0024,Evidence standards framework for digital health technologies,NICE – National Institute for Health and Care Excellence,2018,,guidance,gb,guideline,en,preliminary,,2026-11-11,pending,pending,,,,updated 2022; international reference
+CAND-0025,Guidance on digital mental health technologies,MHRA with NICE,,,guidance,gb,guideline,en,preliminary,,2026-11-11,pending,pending,,,,to be verified; international reference
+CAND-0026,DiGA guide (Leitfaden digitale Gesundheitsanwendungen),BfArM – Federal Institute for Drugs and Medical Devices,,,guidance,de,guideline,de,preliminary,,2026-11-11,pending,pending,,,,international reference
+CAND-0027,Activities on generative AI-enabled digital mental health medical devices,FDA – U.S. Food and Drug Administration,,,guidance,us,other,en,preliminary,,2026-11-11,pending,pending,,,,to be verified; international reference
+CAND-0028,Meta-Code of Ethics,EFPA – European Federation of Psychologists' Associations,2005,,professional,europe,code,en,preliminary,,2026-11-11,pending,pending,,,,revised version
+CAND-0029,"Statements, guidance and surveys on AI and digital psychology",EFPA – European Federation of Psychologists' Associations,,,professional,europe,statement,en,preliminary,,2026-11-11,pending,pending,,,,to be researched
+CAND-0030,Ethical guidelines and statements on digital work and AI,BÖP – Berufsverband Österreichischer PsychologInnen,,,professional,at,code,de,preliminary,,2026-11-11,pending,pending,,,,to be researched
+CAND-0031,Ethical Principles of Psychologists and Code of Conduct,American Psychological Association (APA),2002,,professional,us,code,en,preliminary,,2026-11-11,pending,pending,,,,amended 2010 and 2016; international reference
+CAND-0032,Guidance and advisories on AI in psychological practice and on AI chatbots,American Psychological Association (APA),,,professional,us,statement,en,preliminary,,2026-11-11,pending,pending,,,,to be researched; international reference
+CAND-0033,Code of Ethics and Conduct,British Psychological Society (BPS),2021,,professional,gb,code,en,preliminary,,2026-11-11,pending,pending,,,,international reference
+CAND-0034,Guidance on AI in psychological practice,British Psychological Society (BPS),,,professional,gb,statement,en,preliminary,,2026-11-11,pending,pending,,,,to be researched; international reference

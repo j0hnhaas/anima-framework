@@ -1,0 +1,3 @@
+search_id,date,pillar,strategy,resource,url,query,filters,results_total,results_screened,candidates_added,searcher,notes
+S-001,2026-11-11,law,database,EUR-Lex,https://eur-lex.europa.eu,AI AND psycholog*,,120,50,1,test,valid row
+S-001,11.11.2026,laws,search_engine,,,,,many,,,test,"duplicate ID, bad date, pillar, strategy, missing query, non-numeric count"

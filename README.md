@@ -16,6 +16,7 @@ ANIMA is a navigator, not a norm. It helps people find their way through the req
 
 1. **Psychology as a profession** – psychologists who use AI in their work, or whose clients use AI: clinical and health psychology, psychological assessment, expert opinions, work, school and traffic psychology.
 2. **Psychological effects of AI** – how AI systems affect people's experience and behaviour, for example trust, dependence, wellbeing or decisions. This includes the use of AI **without any practitioner**, such as chatbots or wellness apps.
+3. **Psychological research with AI** – the rules for conducting research that uses AI or studies its psychological effects: research ethics, ethics review, consent of participants, data protection. Research findings belong to the evidence pillar.
 
 Psychotherapy and psychiatry are not covered as professions; their settings are covered where psychological effects of AI are concerned. Details: [docs/scope.md](docs/scope.md).
 
@@ -49,10 +50,11 @@ The framework can also be read at **https://j0hnhaas.github.io/anima-framework/*
 │   ├── law/           binding law
 │   ├── guidance/      WHO, public bodies, authorities
 │   └── professional/  professional bodies of psychologists
+├── search/            search log, candidate register, search flow
 ├── evidence/          research (planned)
 ├── navigator/         all requirements on the triad, with gaps (generated)
 ├── data/              navigator as JSON and CSV (generated)
-├── docs/              scope, methodology, vocabulary
+├── docs/              scope, methodology, vocabulary, search protocol
 ├── templates/         template for source files
 ├── schema/            JSON Schema for source files
 ├── scripts/           validation and navigator generator
@@ -67,7 +69,9 @@ The framework can also be read at **https://j0hnhaas.github.io/anima-framework/*
 | [Scope and definitions](docs/scope.md) | What ANIMA covers, pillars of sources, spectrum, definitions |
 | [Methodology](docs/methodology.md) | How sources are selected, mapped onto the triad, verified and updated |
 | [Controlled vocabulary](docs/vocabulary.md) | All codes: pillars, jurisdictions, bindingness, triad, topics, status |
-| [Sources](sources/README.md) | Where source files go; candidate sources per pillar |
+| [Search protocol](docs/search-protocol.md) | How sources are searched, screened and selected (scoping-review practice) |
+| [Search](search/README.md) | Search log, candidate register and flow of the search |
+| [Sources](sources/README.md) | Where source files go |
 | [Navigator](navigator/README.md) | How requirements are brought together; coverage and gaps |
 | [Source template](templates/source-summary.md) | Structure every source file follows |
 | [Contributing](CONTRIBUTING.md) | How to contribute and check your contribution, DCO |

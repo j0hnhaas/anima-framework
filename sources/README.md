@@ -24,7 +24,7 @@ Folders for a jurisdiction are created together with the first source file. Each
 
 ## Candidate sources
 
-Each pillar folder contains a list of **candidate sources**. These are sources that probably meet the selection criteria but have **not yet been checked**. Before a candidate is summarised, its title, version and current status must be verified against the official source.
+Sources are found, screened and selected following the [search protocol](../docs/search-protocol.md). All candidates and decisions are recorded in the [candidate register](../search/candidates.csv); only documents included at full-text stage become source files here.
 
 ## Adding a country
 

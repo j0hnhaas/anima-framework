@@ -14,12 +14,13 @@ The triad lets ANIMA ask the same questions of every source: *Which relationship
 
 | Node | Definition | Examples |
 |---|---|---|
-| **Client (C)** | The person with or about whom psychological work is done, or who is psychologically affected by an AI system. | a client in counselling; a patient in clinical-psychological treatment; a test taker; an applicant in aptitude assessment; a person who uses a chatbot on their own |
-| **Practitioner (P)** | A psychologist who carries professional responsibility for the psychological work. | clinical psychologist, health psychologist, work or school psychologist |
+| **Client (C)** | The person with or about whom psychological work is done, or who is psychologically affected by an AI system. | a client in counselling; a patient in clinical-psychological treatment; a test taker; an applicant in aptitude assessment; a participant in a psychological study; a person who uses a chatbot on their own |
+| **Practitioner (P)** | A psychologist who carries professional responsibility for the psychological work. | clinical psychologist, health psychologist, work or school psychologist, researcher in psychology |
 | **AI system (AI)** | An AI system as defined in Art. 3(1) of the EU AI Act. The node stands for the **system**, not for the company behind it. | chatbot, scoring or assessment software, transcription tool, wellness app |
 
 - **Groups:** in couple, family or group settings, the node C stands for the group. Other people concerned belong to the environment (section 5).
 - **Commissioning parties** – for example an employer that orders an aptitude assessment or a court that orders an expert opinion – are not clients. They belong to the institution (section 5).
+- **Research:** the researcher is node P, the study participant node C. Ethics committees, research institutions and funders belong to the institution (section 5).
 - **The provider** of an AI system belongs to the frame, not to the node AI. Properties that result from a business model (data use, design for engagement) are thus attributed to the provider, not to the technology.
 
 ## 2. Edges
@@ -65,7 +66,7 @@ A **missing or hidden edge is itself a finding**. In configuration 3, for exampl
 |---|---|---|
 | **Provider** | Who develops or operates the AI system, and with which business model? | developer, platform, cloud service; in the AI Act: provider |
 | **Law** | What binding rules apply? | EU and national law – the sources of the law pillar |
-| **Institution** | Who decides on, pays for or commissions the use? | employer, clinic, school, insurer, court; in the AI Act often: deployer |
+| **Institution** | Who decides on, pays for or commissions the use? | employer, clinic, school, insurer, court, university or research institution, ethics committee, funder; in the AI Act often: deployer |
 | **Environment** | Who else is affected? | parents of minors, partners and family, third parties who are talked about |
 
 ## 6. Addressee
