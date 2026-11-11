@@ -90,6 +90,7 @@ This DOI always points to the latest version. Every release is archived on [Zeno
 
 | Version | DOI |
 |---|---|
+| 0.2.0 | [10.5281/zenodo.24145323](https://doi.org/10.5281/zenodo.24145323) |
 | 0.1.0 | [10.5281/zenodo.24138893](https://doi.org/10.5281/zenodo.24138893) |
 
 ## Maintainer
