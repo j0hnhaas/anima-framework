@@ -1,0 +1,24 @@
+version = 1
+SPDX-PackageName = "ANIMA – AI Navigator for Informed Mental Health Applications"
+SPDX-PackageDownloadLocation = "https://github.com/j0hnhaas/anima-framework"
+
+# Content: texts, guides, checklists
+[[annotations]]
+path = ["**/*.md", "REUSE.toml", ".github/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 ANIMA contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Data: machine-readable files
+[[annotations]]
+path = ["data/**"]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 ANIMA contributors"
+SPDX-License-Identifier = "CC0-1.0"
+
+# Code and tools (planned): add LICENSES/EUPL-1.2.txt before activating
+# [[annotations]]
+# path = ["tools/**"]
+# precedence = "override"
+# SPDX-FileCopyrightText = "2026 ANIMA contributors"
+# SPDX-License-Identifier = "EUPL-1.2"
