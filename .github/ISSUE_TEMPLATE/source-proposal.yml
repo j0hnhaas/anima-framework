@@ -1,0 +1,68 @@
+name: Propose a source
+description: Suggest a law, guideline, WHO document or study for ANIMA
+title: "[Source] "
+labels: ["source-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Do not include personal or health data of identifiable people.** For sensitive reports, see [SECURITY.md](https://github.com/j0hnhaas/anima-framework/blob/main/SECURITY.md).
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! Please check the [methodology](https://github.com/j0hnhaas/anima-framework/blob/main/docs/methodology.md) for the selection criteria.
+  - type: input
+    id: title
+    attributes:
+      label: Title of the source
+      placeholder: e.g. Regulation (EU) 2024/1689 (AI Act)
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link to the official version
+    validations:
+      required: true
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Layer
+      options:
+        - WHO global
+        - WHO Europe
+        - EU
+        - National (please name the country below)
+    validations:
+      required: true
+  - type: dropdown
+    id: level
+    attributes:
+      label: Level (see methodology)
+      options:
+        - L1 – binding law
+        - L2 – official guidance by regulators
+        - L3 – WHO recommendation
+        - L4 – professional guideline or code
+        - L5 – scientific literature
+        - Not sure
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why is this source relevant for AI in psychology or mental health?
+    validations:
+      required: true
+  - type: checkboxes
+    id: contexts
+    attributes:
+      label: Usage contexts affected
+      options:
+        - label: Professional-led
+        - label: Professional-supervised
+        - label: Self-directed
+  - type: checkboxes
+    id: summary
+    attributes:
+      label: Contribution
+      options:
+        - label: I would like to write the summary myself

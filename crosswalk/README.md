@@ -4,18 +4,20 @@ The crosswalk maps requirements across the four layers. It answers: *Which requi
 
 ## Planned structure
 
-Each requirement is one row with these fields:
+Each requirement is one row with the fields below. Allowed values are defined in [docs/vocabulary.md](../docs/vocabulary.md).
 
 | Field | Example |
 |---|---|
 | `id` | `ANIMA-TRANS-001` |
-| `topic` | Transparency |
+| `topic` | `TRANS` |
 | `requirement` | Users must be informed that they are interacting with an AI system. |
-| `layer` | EU |
-| `source` | AI Act, Art. 50(1) |
-| `binding` | yes |
-| `usage_context` | self-directed, professional-supervised |
-| `spectrum` | wellbeing, prevention, diagnostics-treatment |
-| `related` | WHO 2024 LMM guidance (transparency) |
+| `source_id` | `SRC-EU-001` |
+| `reference` | AI Act, Art. 50(1) |
+| `layer` | `eu` |
+| `level` | `L1` |
+| `binding` | `true` |
+| `usage_context` | `self-directed`, `professional-supervised` |
+| `spectrum` | `wellbeing`, `prevention`, `diagnostics-treatment` |
+| `related` | `ANIMA-TRANS-004` (WHO guidance on the same topic) |
 
 The human-readable crosswalk lives here. The machine-readable version lives in [`data/`](../data/).

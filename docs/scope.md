@@ -4,7 +4,7 @@ This document defines what ANIMA covers and how requirements are classified.
 
 ## 1. Regulatory layers
 
-Requirements are organised in four layers. Each layer builds on the one above it.
+Requirements are organised in four layers, from global recommendations to national law. The further down, the more specific the requirements become; from the EU layer on, they are legally binding.
 
 | # | Layer | Nature | Folder |
 |---|---|---|---|
@@ -42,6 +42,8 @@ The boundary between wellbeing and medical purpose often depends on the intended
 **Psychology.** Includes clinical and health psychology and psychotherapy. Other fields (e.g. work, school or traffic psychology) may be added later.
 
 **AI system.** As defined in Art. 3(1) of the EU AI Act (Regulation (EU) 2024/1689).
+
+All codes used for layers, levels, usage contexts, spectrum and topics are defined in [vocabulary.md](vocabulary.md).
 
 ## 5. Out of scope (for now)
 

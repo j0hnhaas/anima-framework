@@ -4,7 +4,7 @@ SPDX-PackageDownloadLocation = "https://github.com/j0hnhaas/anima-framework"
 
 # Content: texts, guides, checklists
 [[annotations]]
-path = ["**/*.md", "REUSE.toml", "CITATION.cff", ".github/**"]
+path = ["**/*.md", "REUSE.toml", "CITATION.cff", ".zenodo.json", "references.bib", ".gitignore", ".github/**"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2026 ANIMA contributors"
 SPDX-License-Identifier = "CC-BY-4.0"
