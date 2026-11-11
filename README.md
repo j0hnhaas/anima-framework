@@ -49,6 +49,18 @@ ANIMA describes every requirement along three axes. Details are in [docs/scope.m
 
 The framework is written in **English** so it can be used across Europe. National layers may quote the law in its original language (e.g. German for Austria) with an English summary.
 
+## How to cite
+
+If you use ANIMA, please cite it. The citation metadata is in [CITATION.cff](CITATION.cff); GitHub shows a ready-made citation under **"Cite this repository"** in the sidebar.
+
+> Haas, J. G. (2026). *ANIMA – AI Navigator for Informed Mental Health Applications* (Version 0.1.0) [Data set]. https://github.com/j0hnhaas/anima-framework
+
+A DOI will be added with the first release on [Zenodo](https://zenodo.org).
+
+## Maintainer
+
+**Mag. John G. Haas** – initiator and maintainer · ORCID [0000-0002-4591-5015](https://orcid.org/0000-0002-4591-5015)
+
 ## Licence
 
 - **Content** (texts, guides, checklists): [CC BY 4.0](LICENSES/CC-BY-4.0.txt)
