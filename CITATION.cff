@@ -7,8 +7,8 @@ abstract: >-
   affects people psychologically. Law, guidance of public bodies and standards
   of professional bodies are mapped onto one model: the triad of client,
   practitioner and AI system, with its edges, flows, configurations, frame and
-  addressees. Covers psychology as a profession and psychological effects of
-  AI, also without any practitioner.
+  addressees. Covers psychology as a profession, psychological research with
+  AI and psychological effects of AI, also without any practitioner.
 type: dataset
 authors:
   - family-names: Haas
@@ -32,6 +32,7 @@ keywords:
   - AI Act
   - regulation
   - professional ethics
+  - research ethics
   - WHO
   - European Union
   - Austria

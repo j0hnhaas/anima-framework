@@ -16,6 +16,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ver
 
 ### Changed
 - Candidate sources moved from the pillar READMEs to the candidate register
+- **Scope** extended to a third field, **psychological research with AI**: the rules for conducting such research are covered; research findings remain in the evidence pillar. Model, methodology, README and citation metadata adapted; search protocol version 1.1
 
 ## [0.2.0] – 2026-11-11
 

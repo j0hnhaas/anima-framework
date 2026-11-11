@@ -4,7 +4,7 @@ This protocol describes how ANIMA identifies, screens and selects sources for th
 
 | | |
 |---|---|
-| **Version** | 1.0 |
+| **Version** | 1.1 |
 | **Date** | 2026-11-11 |
 | **Status** | in force |
 | **Applies to** | pillars `law`, `guidance`, `professional` |
@@ -12,14 +12,14 @@ This protocol describes how ANIMA identifies, screens and selects sources for th
 
 ## 1. Purpose and review question
 
-**Review question:** *Which binding rules, official guidance, recommendations and professional standards apply to the use of AI systems in psychology as a profession, and to the psychological effects of AI systems on people?*
+**Review question:** *Which binding rules, official guidance, recommendations and professional standards apply to the use of AI systems in psychology as a profession and in psychological research, and to the psychological effects of AI systems on people?*
 
 The question is framed with the **PCC** elements recommended for scoping reviews (Peters et al., 2020):
 
 | Element | Definition in ANIMA |
 |---|---|
-| **Population** | practitioners (psychologists), clients and other people who are psychologically affected by AI systems – the nodes of the [triad](../model/README.md) |
-| **Concept** | requirements, prohibitions and recommendations concerning AI systems – their design, use, oversight and effects |
+| **Population** | practitioners (psychologists, including researchers), clients (including study participants) and other people who are psychologically affected by AI systems – the nodes of the [triad](../model/README.md) |
+| **Concept** | requirements, prohibitions and recommendations concerning AI systems – their design, use, oversight and effects, and the conduct of research with them |
 | **Context** | the pillars law, guidance and professional; jurisdictions global, pan-European, EU, Austria, and international references (see [scope](scope.md)) |
 
 ## 2. Methodological basis
@@ -37,7 +37,7 @@ The selection criteria of the [methodology](methodology.md#1-source-selection) a
 A document is included if **all** of the following apply:
 
 1. It contains at least one requirement, prohibition or recommendation that concerns AI systems, or that applies to AI systems even if it does not name them (e.g. data protection law, professional duties of psychologists).
-2. It concerns psychology as a profession or psychological effects of AI (see [scope](scope.md#1-subject)).
+2. It concerns psychology as a profession, psychological research with AI or psychological effects of AI (see [scope](scope.md#1-subject)).
 3. It is issued by a legislator, an authority, an international organisation or a professional body.
 4. An official version is publicly accessible.
 5. It is in force or current on the date of screening.
@@ -111,7 +111,7 @@ Searches combine three concept blocks. Block C is used where a resource returns 
 | Block | English | German |
 |---|---|---|
 | **A – AI** | artificial intelligence, AI, machine learning, algorithm\*, chatbot\*, large language model\*, generative AI, automated decision\* | künstliche Intelligenz, KI, maschinelles Lernen, Algorithm\*, Chatbot\*, Sprachmodell\*, generative KI, automatisierte Entscheidung\* |
-| **B – Psychology** | psycholog\*, mental health, wellbeing, psychological assessment, psychological test\*, emotion\* | Psycholog\*, psychische Gesundheit, Wohlbefinden, psychologische Diagnostik, psychologische\* Test\*, Emotion\* |
+| **B – Psychology** | psycholog\*, mental health, wellbeing, psychological assessment, psychological test\*, emotion\*; for research: research ethics, ethics review, ethics committee\*, research participant\* | Psycholog\*, psychische Gesundheit, Wohlbefinden, psychologische Diagnostik, psychologische\* Test\*, Emotion\*; für Forschung: Forschungsethik, Ethikkommission\*, Studienteilnehm\* |
 | **C – Normative** | guideline\*, guidance, recommendation\*, code of ethics, code of conduct, regulation, standard\* | Leitlinie\*, Richtlinie\*, Empfehlung\*, Ethikkodex, Berufsethik, Verordnung, Gesetz |
 
 **Combination:** A AND B, optionally AND C. Example: `("artificial intelligence" OR chatbot*) AND (psycholog* OR "mental health")`.
@@ -165,6 +165,7 @@ Decisions are `include`, `exclude` or `unclear`. *Unclear* at stage 1 leads to f
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | 2026-11-11 | First version |
+| 1.1 | 2026-11-11 | Scope extended to psychological research with AI (see [scope](scope.md#1-subject)): review question, PCC, inclusion criterion 2 and block B of the search terms adapted. Reason: WHO guidance on the ethics review of AI-related health research (`CAND-0048`) was identified in search `S-005`. Searches `S-001` to `S-017` were run under version 1.0 without the research terms; this is reported as a limitation and closed by a supplementary search. |
 
 ## References
 
