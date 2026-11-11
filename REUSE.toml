@@ -2,6 +2,12 @@ version = 1
 SPDX-PackageName = "ANIMA – AI Navigator for Informed Mental Health Applications"
 SPDX-PackageDownloadLocation = "https://github.com/j0hnhaas/anima-framework"
 
+# Figures
+[[annotations]]
+path = ["**/*.svg"]
+SPDX-FileCopyrightText = "2026 ANIMA contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
+
 # Content: texts, guides, checklists
 [[annotations]]
 path = ["**/*.md", "REUSE.toml", "CITATION.cff", ".zenodo.json", "references.bib", ".gitignore", ".github/**"]

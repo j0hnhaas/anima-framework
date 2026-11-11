@@ -2,17 +2,7 @@
 
 ANIMA places every source and every requirement on one model: the **triad of client, practitioner and AI system**. This document defines the model. How sources are mapped onto it is described in the [methodology](../docs/methodology.md); the codes are listed in the [vocabulary](../docs/vocabulary.md).
 
-```mermaid
-graph TD
-    AI["AI system (AI)"]
-    C["Client (C)"]
-    P["Practitioner (P)"]
-    AI --- C
-    AI --- P
-    C --- P
-```
-
-*The triad sits inside a **frame**: provider, law, institution and environment (section 5).*
+![The ANIMA triad: AI system, client and practitioner, connected by the edges C–AI, P–AI and C–P, inside the frame of provider, law, institution and environment](triad.svg)
 
 ## Why a triad
 
