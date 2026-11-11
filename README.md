@@ -53,6 +53,7 @@ ANIMA describes every requirement along three axes. Details are in [docs/scope.m
 
 | Document | Content |
 |---|---|
+| [Model: the triad](model/README.md) | Client, practitioner and AI system – the model every source is mapped onto |
 | [Scope and definitions](docs/scope.md) | What ANIMA covers: layers, usage contexts, spectrum |
 | [Methodology](docs/methodology.md) | How sources are selected, weighted, verified and updated |
 | [Controlled vocabulary](docs/vocabulary.md) | Codes for layers, levels, contexts, spectrum and topics |

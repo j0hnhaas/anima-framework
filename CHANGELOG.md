@@ -7,6 +7,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ver
 ## [Unreleased]
 
 ### Added
+- Model: the triad of client, practitioner and AI system with edges, flows, configurations, frame and addressee (`model/README.md`)
 - Acknowledgements in the README: disclosure of AI assistance (Claude, ChatGPT)
 - Methodology: source selection, hierarchy (L1–L5), verification, updates, versioning, use of AI tools (`docs/methodology.md`)
 - Source summary template (`templates/source-summary.md`)
