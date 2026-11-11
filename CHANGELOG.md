@@ -10,7 +10,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ver
 - **Search protocol** (`docs/search-protocol.md`) following JBI scoping-review methodology, PRISMA-ScR and PRISMA-S: review question (PCC), eligibility criteria and exclusion reasons E1–E8, information sources per pillar, search terms, process, AI assistance, two-stage screening, data management, updates
 - **Search log and candidate register** (`search/`), with the preliminary list of 34 candidates; generated search flow (`search/flow.md`)
 - Validation of the search log and candidate register; test fixture with deliberate errors
-- **First search: WHO and WHO/Europe** (pillar guidance, global and European): 18 searches recorded, 22 new candidates; title screening of 26 candidates – 15 passed to full-text screening, 11 excluded with reasons
+- **First search: WHO and WHO/Europe** (pillar guidance, global and European): 18 searches recorded, 22 new candidates; title screening of 26 candidates – 15 passed to full-text screening, 11 excluded with reasons; supplementary search on research ethics (protocol 1.1): 7 searches, 2 new candidates
 - **Roadmap** (`ROADMAP.md`) with the next phases – incl. a bilingual website and further EU languages – and criteria proposed for version 1.0
 - **Glossary** (`docs/glossary.md`) with the terms defined so far; **FAQ** (`docs/faq.md`) with answers about ANIMA and planned content questions per audience; concept for **practice guides** (`guides/`)
 - Glossary and FAQ in the website navigation
