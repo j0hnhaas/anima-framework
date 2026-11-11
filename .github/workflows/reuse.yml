@@ -1,0 +1,14 @@
+name: REUSE compliance
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  reuse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check licence information
+        uses: fsfe/reuse-action@v4
