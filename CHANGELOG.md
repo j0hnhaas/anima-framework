@@ -7,6 +7,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ver
 ## [Unreleased]
 
 ### Added
+- Model: the triad of client, practitioner and AI system with edges, flows, configurations, frame and addressee (`model/README.md`)
 - Website layout for GitHub Pages with privacy-friendly page-view counting (GoatCounter, no cookies) and a privacy notice (`privacy.md`)
 - EUPL-1.2 licence for code (`LICENSES/EUPL-1.2.txt`)
 - Acknowledgements in the README: disclosure of AI assistance (Claude, ChatGPT)
