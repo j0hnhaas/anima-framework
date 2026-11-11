@@ -1,0 +1,16 @@
+title: ANIMA
+description: >-
+  An open European framework for AI in psychology – what applies, what is
+  recommended and what is known when AI enters psychological work.
+url: https://j0hnhaas.github.io
+baseurl: /anima-framework
+lang: en
+
+# Files that are part of the repository but not of the website
+exclude:
+  - LICENSES/
+  - templates/
+  - REUSE.toml
+  - CITATION.cff
+  - references.bib
+  - "*.toml"

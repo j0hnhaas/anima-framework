@@ -92,7 +92,7 @@ The initial structure and documentation of ANIMA were drafted with the assistanc
 
 - **Content** (texts, guides, checklists): [CC BY 4.0](LICENSES/CC-BY-4.0.txt)
 - **Data** (`data/`): [CC0 1.0](LICENSES/CC0-1.0.txt)
-- **Code and tools** (planned): EUPL-1.2
+- **Code** (website layout, scripts): [EUPL-1.2](LICENSES/EUPL-1.2.txt)
 
 Licences are assigned per file in [REUSE.toml](REUSE.toml), following the [REUSE](https://reuse.software) specification of the FSFE.
 
