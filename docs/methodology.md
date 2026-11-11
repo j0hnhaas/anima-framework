@@ -6,7 +6,7 @@ This document describes how ANIMA selects, maps, verifies and maintains its sour
 
 A source is included if it meets **all** of the following criteria:
 
-1. **Relevance:** it concerns psychology as a profession or psychological effects of AI (see [scope.md](scope.md)).
+1. **Relevance:** it concerns psychology as a profession, psychological research with AI or psychological effects of AI (see [scope.md](scope.md)).
 2. **Mappability:** at least one of its requirements or recommendations can be placed on the triad.
 3. **Authority:** it is issued by a body with a recognised mandate (legislator, authority, international organisation, professional body) or, for the evidence pillar, is peer-reviewed.
 4. **Availability:** an official, publicly accessible version exists and can be linked.
