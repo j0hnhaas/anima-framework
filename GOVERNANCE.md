@@ -29,6 +29,16 @@ This document describes how decisions are made in ANIMA.
 3. **Disagreement** is discussed openly in the pull request. If no consensus is reached, the maintainers decide and document their reasons.
 4. **Changes to this governance, the methodology or the scope** are announced in an issue and remain open for comments for at least 14 days.
 
+### Build-up phase (before v1.0)
+
+While ANIMA is being built and has no reviewers yet, the rules above cannot all be applied. Until **version 1.0 is released or at least one reviewer has been appointed**, whichever comes first, the following applies:
+
+- The maintainer may merge pull requests **without a second review** and **without the 14-day comment period**.
+- Every change is still made via a pull request and recorded in the [CHANGELOG](CHANGELOG.md). Larger changes are announced in an issue beforehand.
+- Content merged without a second review keeps the status **`draft`** (see the [methodology](docs/methodology.md#5-verification)). It becomes `reviewed` only after a second person has checked it.
+
+From then on, the rules above apply in full.
+
 ## Becoming a reviewer or maintainer
 
 Contributors who have made several substantial, high-quality contributions can be invited as reviewers. Reviewers can be proposed as maintainers by an existing maintainer. The goal is to have maintainers from more than one country and more than one discipline.

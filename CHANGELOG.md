@@ -22,6 +22,11 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ver
 - Dependabot for GitHub Actions, `.gitignore`
 
 ### Changed
+- Scope: psychology as a profession and psychological effects of AI; psychotherapy and psychiatry out of scope as professions (`docs/scope.md`)
+- Sources organised in pillars (law, guidance, professional; evidence planned) with jurisdiction and bindingness, replacing the geographic layers and levels L1–L5
+- Vocabulary: new codes for pillar, jurisdiction, bindingness, edge, flow, configuration, addressee and status; usage contexts replaced by the configurations of the triad (`docs/vocabulary.md`)
+- Methodology: rules for mapping requirements onto the triad, gaps, status `draft`/`reviewed`, evidence pillar based on GRADE (planned), versioning before v1.0 (`docs/methodology.md`)
+- Governance: rules for the build-up phase before v1.0 (`GOVERNANCE.md`)
 - Crosswalk fields aligned with the vocabulary (`source_id`, `level`, coded values)
 - Austrian ministry guidelines classified as official guidance (L2)
 - Methodology: precedence of EU law over national law within L1
