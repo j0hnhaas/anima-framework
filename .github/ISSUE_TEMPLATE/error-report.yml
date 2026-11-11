@@ -3,6 +3,10 @@ description: Something is wrong, outdated or unclear
 title: "[Error] "
 labels: ["error"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        **Do not include personal or health data of identifiable people.** For sensitive reports, see [SECURITY.md](https://github.com/j0hnhaas/anima-framework/blob/main/SECURITY.md).
   - type: input
     id: location
     attributes:

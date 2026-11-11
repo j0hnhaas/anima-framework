@@ -4,7 +4,7 @@ Austrian law and professional rules relevant to AI in psychology and psychothera
 
 > **Status:** to be researched. Always check the current consolidated version in the [RIS](https://www.ris.bka.gv.at) (Rechtsinformationssystem des Bundes).
 
-## Core legal acts
+## Core legal acts (L1)
 
 | Act | Relevance |
 |---|---|
@@ -14,9 +14,12 @@ Austrian law and professional rules relevant to AI in psychology and psychothera
 | **Medizinproduktegesetz 2021 (MPG 2021)** | National implementation of the MDR |
 | **Gesundheitstelematikgesetz 2012 (GTelG 2012)** | Electronic health data, ELGA |
 
-## Professional guidelines
+## Official guidance (L2)
 
 - Guidelines of the Federal Ministry of Health for psychologists and psychotherapists (e.g. on internet-based work)
+
+## Professional guidelines (L4)
+
 - Ethical guidelines of the professional associations
 
 ## Authorities and contact points

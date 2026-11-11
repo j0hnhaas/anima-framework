@@ -6,6 +6,10 @@ body:
   - type: markdown
     attributes:
       value: |
+        **Do not include personal or health data of identifiable people.** For sensitive reports, see [SECURITY.md](https://github.com/j0hnhaas/anima-framework/blob/main/SECURITY.md).
+  - type: markdown
+    attributes:
+      value: |
         Thank you! Please check the [methodology](https://github.com/j0hnhaas/anima-framework/blob/main/docs/methodology.md) for the selection criteria.
   - type: input
     id: title

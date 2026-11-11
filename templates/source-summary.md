@@ -1,11 +1,12 @@
 ---
 # Copy this file into the matching layer folder and fill in all fields.
+# Allowed values for all coded fields: docs/vocabulary.md
 # File name: short identifier, e.g. 03-eu/ai-act.md
-id: SRC-EU-001                 # unique source ID: SRC-<LAYER>-<NUMBER>
+id: SRC-EU-001                 # source ID, prefixes in docs/vocabulary.md
 title: ""                      # official title
 short_title: ""                # e.g. "AI Act"
 issuer: ""                     # e.g. European Parliament and Council
-layer: eu                      # who-global | who-europe | eu | national-at
+layer: eu                      # who-global | who-europe | eu | national-<cc>
 level: L1                      # L1–L5, see docs/methodology.md
 binding: true                  # true | false
 reference: ""                  # e.g. Regulation (EU) 2024/1689
@@ -28,7 +29,7 @@ checked_by: ""                 # GitHub user name(s)
 
 | ID | Requirement (own words) | Article / section | Usage context | Spectrum |
 |---|---|---|---|---|
-| ANIMA-XXX-001 | | | professional-led / professional-supervised / self-directed | wellbeing / prevention / diagnostics-treatment |
+| ANIMA-TOPIC-001 | | | professional-led / professional-supervised / self-directed | wellbeing / prevention / diagnostics-treatment |
 
 ## Relevance by usage context
 

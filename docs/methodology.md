@@ -27,6 +27,10 @@ Sources carry different weight. Every requirement in ANIMA states which level it
 
 If sources conflict, the higher level takes precedence for what is *required*. Lower levels may still describe what is *good practice*.
 
+Within L1, EU law takes precedence over national law. National law can specify or add to EU requirements where EU law allows it (e.g. professional law, opening clauses of the GDPR).
+
+The codes for levels, layers, usage contexts, spectrum and topics are defined in [vocabulary.md](vocabulary.md).
+
 ## 3. Summarising
 
 - Every source is summarised with the [source summary template](../templates/source-summary.md).

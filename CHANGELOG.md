@@ -13,6 +13,16 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ver
 - Governance, code of conduct and this changelog
 - Issue forms for source proposals and error reports
 - Zenodo metadata (`.zenodo.json`) so releases are archived as a dataset
+- Controlled vocabulary for layers, levels, usage contexts, spectrum and topics (`docs/vocabulary.md`)
+- Security policy for sensitive reports and personal data (`SECURITY.md`)
+- Dependabot for GitHub Actions, `.gitignore`
+
+### Changed
+- Crosswalk fields aligned with the vocabulary (`source_id`, `level`, coded values)
+- Austrian ministry guidelines classified as official guidance (L2)
+- Methodology: precedence of EU law over national law within L1
+- Workflow runs with read-only permissions
+- Contributing: explicit ban on sharing personal health data
 
 ### Fixed
 - Full CC BY 4.0 legal code in `LICENSE` so GitHub detects the licence

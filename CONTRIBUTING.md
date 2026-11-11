@@ -2,6 +2,8 @@
 
 Thank you for helping. ANIMA lives from the expertise of psychologists, psychotherapists, lawyers, developers and people with lived experience.
 
+> **Never share personal health data.** Do not post information about clients, patients or other identifiable people in issues, pull requests or files, not even anonymised case examples, unless they are fully fictional.
+
 ## Ways to contribute
 
 - **Propose a source:** open an issue with the document, its version and a link.

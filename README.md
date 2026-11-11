@@ -44,7 +44,7 @@ ANIMA describes every requirement along three axes. Details are in [docs/scope.m
 │   └── at/            Austria
 ├── crosswalk/         mapping: which requirement applies where
 ├── data/              machine-readable data (CSV/JSON)
-├── docs/              scope, definitions, methodology
+├── docs/              scope, methodology, vocabulary
 ├── templates/         template for source summaries
 └── references.bib     central bibliography
 ```
@@ -55,10 +55,12 @@ ANIMA describes every requirement along three axes. Details are in [docs/scope.m
 |---|---|
 | [Scope and definitions](docs/scope.md) | What ANIMA covers: layers, usage contexts, spectrum |
 | [Methodology](docs/methodology.md) | How sources are selected, weighted, verified and updated |
+| [Controlled vocabulary](docs/vocabulary.md) | Codes for layers, levels, contexts, spectrum and topics |
 | [Source summary template](templates/source-summary.md) | Structure every source summary follows |
 | [Contributing](CONTRIBUTING.md) | How to contribute, DCO |
 | [Governance](GOVERNANCE.md) | Roles, decision making, conflicts of interest |
 | [Code of conduct](CODE_OF_CONDUCT.md) | How we work together |
+| [Security](SECURITY.md) | How to report personal data or sensitive problems |
 | [Changelog](CHANGELOG.md) | Changes per version, with DOIs |
 
 ## Languages
