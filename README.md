@@ -59,7 +59,7 @@ A DOI will be added with the first release on [Zenodo](https://zenodo.org).
 
 ## Maintainer
 
-**Johnny Haas** – initiator and maintainer · ORCID [0000-0002-4591-5015](https://orcid.org/0000-0002-4591-5015)
+**Mag. John Haas** – initiator and maintainer · ORCID [0000-0002-4591-5015](https://orcid.org/0000-0002-4591-5015)
 
 ## Licence
 
