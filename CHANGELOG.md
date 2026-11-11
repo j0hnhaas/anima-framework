@@ -6,6 +6,14 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ver
 
 ## [Unreleased]
 
+### Added
+- **Search protocol** (`docs/search-protocol.md`) following JBI scoping-review methodology, PRISMA-ScR and PRISMA-S: review question (PCC), eligibility criteria and exclusion reasons E1–E8, information sources per pillar, search terms, process, AI assistance, two-stage screening, data management, updates
+- **Search log and candidate register** (`search/`), with the preliminary list of 34 candidates; generated search flow (`search/flow.md`)
+- Validation of the search log and candidate register; test fixture with deliberate errors
+
+### Changed
+- Candidate sources moved from the pillar READMEs to the candidate register
+
 ## [0.2.0] – 2026-11-11
 
 DOI: [10.5281/zenodo.24145323](https://doi.org/10.5281/zenodo.24145323)

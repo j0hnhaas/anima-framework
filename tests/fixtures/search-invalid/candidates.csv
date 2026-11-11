@@ -1,0 +1,4 @@
+candidate_id,title,issuer,year,url,pillar,jurisdiction,document_type,language,identified_via,search_id,date_identified,title_screening,full_text_screening,exclusion_reason,source_id,screened_by,notes
+CAND-0001,Valid example,Issuer,2024,https://example.org,law,eu,law,en,database,S-001,2026-11-11,include,include,,SRC-EU-001,test,
+CAND-1,Excluded without reason,Issuer,24,example.org,law,EU,act,english,database,S-999,2026-11-11,exclude,pending,,,test,"bad ID, year, url, jurisdiction, type, language, unknown search, exclusion rules"
+CAND-0003,Source ID without inclusion,Issuer,,,guidance,global,guideline,en,preliminary,S-001,2026-11-11,pending,include,E1,SRC-1,test,"preliminary with search_id, full text before title, reason without exclusion, bad source_id"

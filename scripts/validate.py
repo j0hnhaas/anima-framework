@@ -12,6 +12,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import csv
 import datetime as dt
 import re
 import sys
@@ -19,7 +20,7 @@ from pathlib import Path
 
 from jsonschema import Draft202012Validator
 
-from common import ACTIVE_EDGES, ROOT, SOURCES_DIR, load_schema, read_front_matter, source_files
+from common import ACTIVE_EDGES, ROOT, SEARCH_DIR, SOURCES_DIR, load_schema, read_front_matter, source_files
 
 BINDINGNESS_BY_PILLAR = {
     "law": {"binding"},
@@ -91,10 +92,120 @@ def check_file(path: Path, data: dict, sources_dir: Path, bib_keys: set[str]) ->
     return errors
 
 
+# --- Search log and candidate register (search/README.md) ---------------------
+
+LOG_COLUMNS = ["search_id", "date", "pillar", "strategy", "resource", "url", "query", "filters",
+               "results_total", "results_screened", "candidates_added", "searcher", "notes"]
+CANDIDATE_COLUMNS = ["candidate_id", "title", "issuer", "year", "url", "pillar", "jurisdiction", "document_type",
+                     "language", "identified_via", "search_id", "date_identified", "title_screening",
+                     "full_text_screening", "exclusion_reason", "source_id", "screened_by", "notes"]
+STRATEGIES = {"database", "website", "web_search", "citation", "expert", "ai_assisted"}
+DATE = re.compile(r"^[0-9]{4}-[0-9]{2}-[0-9]{2}$")
+
+
+def read_csv(path: Path, columns: list[str]) -> tuple[list[dict], list[str]]:
+    with path.open(encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        if reader.fieldnames != columns:
+            return [], [f"columns must be: {', '.join(columns)}"]
+        return list(reader), []
+
+
+def check_search(search_dir: Path) -> dict[str, list[str]]:
+    """Check search-log.csv and candidates.csv against the rules in search/README.md."""
+    problems: dict[str, list[str]] = {}
+    log_path, cand_path = search_dir / "search-log.csv", search_dir / "candidates.csv"
+    if not log_path.exists() and not cand_path.exists():
+        return problems
+
+    log, errors = read_csv(log_path, LOG_COLUMNS) if log_path.exists() else ([], ["file is missing"])
+    search_ids: set[str] = set()
+    for n, row in enumerate(log, start=2):
+        where = f"line {n} ({row.get('search_id') or '?'})"
+        sid = row["search_id"]
+        if not re.fullmatch(r"S-[0-9]{3}", sid):
+            errors.append(f"{where}: search_id must look like S-001")
+        if sid in search_ids:
+            errors.append(f"{where}: search_id is used twice")
+        search_ids.add(sid)
+        if not DATE.match(row["date"]):
+            errors.append(f"{where}: date must be YYYY-MM-DD")
+        if row["pillar"] not in {"law", "guidance", "professional", "all"}:
+            errors.append(f"{where}: unknown pillar '{row['pillar']}'")
+        if row["strategy"] not in STRATEGIES:
+            errors.append(f"{where}: unknown strategy '{row['strategy']}'")
+        if not row["resource"] or not row["query"]:
+            errors.append(f"{where}: resource and query are required")
+        for col in ("results_total", "results_screened", "candidates_added"):
+            if row[col] and not row[col].isdigit():
+                errors.append(f"{where}: {col} must be a number")
+    if errors:
+        problems[str(log_path.relative_to(ROOT)) if log_path.is_relative_to(ROOT) else str(log_path)] = errors
+
+    rows, errors = read_csv(cand_path, CANDIDATE_COLUMNS) if cand_path.exists() else ([], ["file is missing"])
+    cand_ids: set[str] = set()
+    for n, row in enumerate(rows, start=2):
+        where = f"line {n} ({row.get('candidate_id') or '?'})"
+        cid = row["candidate_id"]
+        if not re.fullmatch(r"CAND-[0-9]{4}", cid):
+            errors.append(f"{where}: candidate_id must look like CAND-0001")
+        if cid in cand_ids:
+            errors.append(f"{where}: candidate_id is used twice")
+        cand_ids.add(cid)
+        if not row["title"] or not row["issuer"]:
+            errors.append(f"{where}: title and issuer are required")
+        if row["year"] and not re.fullmatch(r"[0-9]{4}", row["year"]):
+            errors.append(f"{where}: year must be YYYY")
+        if row["url"] and not row["url"].startswith(("http://", "https://")):
+            errors.append(f"{where}: url must start with http(s)://")
+        if row["pillar"] not in {"law", "guidance", "professional", "unknown"}:
+            errors.append(f"{where}: unknown pillar '{row['pillar']}'")
+        if not re.fullmatch(r"global|europe|eu|unknown|[a-z]{2}", row["jurisdiction"]):
+            errors.append(f"{where}: unknown jurisdiction '{row['jurisdiction']}'")
+        if row["document_type"] not in {"law", "treaty", "guideline", "recommendation", "code", "statement", "report", "other"}:
+            errors.append(f"{where}: unknown document_type '{row['document_type']}'")
+        if not re.fullmatch(r"[a-z]{2}", row["language"]):
+            errors.append(f"{where}: language must be an ISO 639-1 code, e.g. en")
+        via = row["identified_via"]
+        if via not in STRATEGIES | {"preliminary"}:
+            errors.append(f"{where}: unknown identified_via '{via}'")
+        if via == "preliminary":
+            if row["search_id"]:
+                errors.append(f"{where}: preliminary entries have no search_id")
+        elif row["search_id"] not in search_ids:
+            errors.append(f"{where}: search_id '{row['search_id']}' not found in the search log")
+        if not DATE.match(row["date_identified"]):
+            errors.append(f"{where}: date_identified must be YYYY-MM-DD")
+
+        title, full = row["title_screening"], row["full_text_screening"]
+        reason, source_id = row["exclusion_reason"], row["source_id"]
+        if title not in {"pending", "include", "exclude", "unclear"}:
+            errors.append(f"{where}: unknown title_screening '{title}'")
+        if full not in {"pending", "include", "exclude", "unclear", "not_reached"}:
+            errors.append(f"{where}: unknown full_text_screening '{full}'")
+        if title == "exclude" and full != "not_reached":
+            errors.append(f"{where}: excluded at title screening, so full_text_screening must be not_reached")
+        if title != "exclude" and full == "not_reached":
+            errors.append(f"{where}: full_text_screening is not_reached, but the title was not excluded")
+        if title == "pending" and full != "pending":
+            errors.append(f"{where}: full text cannot be screened before the title")
+        excluded = title == "exclude" or full == "exclude"
+        if excluded and not re.fullmatch(r"E[1-8]", reason):
+            errors.append(f"{where}: excluded documents need an exclusion_reason E1–E8")
+        if not excluded and reason:
+            errors.append(f"{where}: exclusion_reason given, but the document is not excluded")
+        if source_id and (full != "include" or not re.fullmatch(r"SRC-[A-Z]+-[0-9]{3}", source_id)):
+            errors.append(f"{where}: source_id only for documents included at full text, format SRC-XX-000")
+    if errors:
+        problems[str(cand_path.relative_to(ROOT)) if cand_path.is_relative_to(ROOT) else str(cand_path)] = errors
+    return problems
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--sources", type=Path, default=SOURCES_DIR, help="folder with source files")
     parser.add_argument("--bib", type=Path, default=ROOT / "references.bib", help="bibliography file")
+    parser.add_argument("--search", type=Path, default=SEARCH_DIR, help="folder with search log and candidate register")
     args = parser.parse_args()
 
     sources_dir = args.sources.resolve()
@@ -136,6 +247,9 @@ def main() -> int:
             problems[rel] = errors
 
     print(f"Checked {len(files)} source file(s) with {len(seen_requirements)} requirement(s) in {sources_dir}.")
+    search_problems = check_search(args.search.resolve())
+    problems.update(search_problems)
+    print(f"Checked search log and candidate register in {args.search}.")
     if problems:
         for rel, errors in problems.items():
             print(f"\n{rel}")

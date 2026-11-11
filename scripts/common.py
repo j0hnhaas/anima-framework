@@ -11,6 +11,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 SCHEMA_PATH = ROOT / "schema" / "source.schema.json"
 SOURCES_DIR = ROOT / "sources"
+SEARCH_DIR = ROOT / "search"
 
 # Edges that are active in each configuration of the triad (model/README.md, section 4).
 ACTIVE_EDGES = {

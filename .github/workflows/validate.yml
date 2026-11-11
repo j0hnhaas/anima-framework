@@ -29,7 +29,13 @@ jobs:
             echo "The invalid fixture was accepted – the validator is broken."
             exit 1
           fi
-      - name: Validate source files
+      - name: Test the validator (invalid search register must fail)
+        run: |
+          if python scripts/validate.py --sources tests/fixtures/valid --search tests/fixtures/search-invalid; then
+            echo "The invalid search register was accepted – the validator is broken."
+            exit 1
+          fi
+      - name: Validate source files and search register
         run: python scripts/validate.py
-      - name: Check that the navigator is up to date
+      - name: Check that the navigator and the search flow are up to date
         run: python scripts/build.py --check

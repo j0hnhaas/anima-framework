@@ -6,7 +6,7 @@ Thank you for helping. ANIMA lives from the expertise of psychologists, lawyers,
 
 ## Ways to contribute
 
-- **Propose a source:** open an issue with the document, its version and a link.
+- **Propose a source:** open an issue with the document, its version and a link. The maintainers add it to the [candidate register](search/candidates.csv) and screen it following the [search protocol](docs/search-protocol.md).
 - **Add a source:** write a source file in the matching pillar folder and map its requirements onto the triad (see [sources/README.md](sources/README.md)).
 - **Add a country:** see [sources/README.md](sources/README.md#adding-a-country).
 - **Report an error:** law changes. If something is outdated or wrong, open an issue.
@@ -29,7 +29,7 @@ Source files are checked automatically in every pull request. You can run the sa
 ```bash
 pip install -r requirements.txt
 python scripts/validate.py   # checks all source files
-python scripts/build.py      # updates the navigator in navigator/ and data/
+python scripts/build.py      # updates the navigator and the search flow
 ```
 
 Commit the updated navigator files together with your source file.
