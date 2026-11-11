@@ -37,12 +37,13 @@ ANIMA describes every requirement along three axes. Details are in [docs/scope.m
 ## Repository structure
 
 ```
-├── 01-who-global/     WHO global guidance
-├── 02-who-europe/     WHO Regional Office for Europe
-├── 03-eu/             EU law
-├── 04-national/       national law, one folder per country
-│   └── at/            Austria
-├── crosswalk/         mapping: which requirement applies where
+├── model/             the triad: client, practitioner, AI system
+├── sources/
+│   ├── law/           binding law
+│   ├── guidance/      WHO, public bodies, authorities
+│   └── professional/  professional bodies of psychologists
+├── evidence/          research (planned)
+├── navigator/         all requirements, placed on the triad
 ├── data/              machine-readable data (CSV/JSON)
 ├── docs/              scope, methodology, vocabulary
 ├── templates/         template for source summaries

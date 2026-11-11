@@ -1,7 +1,7 @@
 ---
-# Copy this file into the matching layer folder and fill in all fields.
+# Copy this file into the matching pillar and jurisdiction folder and fill in all fields.
 # Allowed values for all coded fields: docs/vocabulary.md
-# File name: short identifier, e.g. 03-eu/ai-act.md
+# File location: sources/<pillar>/<jurisdiction>/<short-name>.md, e.g. sources/law/eu/ai-act.md
 id: SRC-EU-001                 # source ID, prefixes in docs/vocabulary.md
 title: ""                      # official title
 short_title: ""                # e.g. "AI Act"

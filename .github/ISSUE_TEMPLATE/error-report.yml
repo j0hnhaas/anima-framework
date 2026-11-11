@@ -12,7 +12,7 @@ body:
     attributes:
       label: Where is the problem?
       description: File, section or requirement ID
-      placeholder: e.g. 03-eu/README.md or ANIMA-TRANS-001
+      placeholder: e.g. sources/law/eu/ai-act.md or ANIMA-TRANS-001
     validations:
       required: true
   - type: dropdown
