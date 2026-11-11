@@ -8,6 +8,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ver
 
 ## [0.2.0] – 2026-11-11
 
+DOI: [10.5281/zenodo.24145323](https://doi.org/10.5281/zenodo.24145323)
+
 ANIMA is restructured around one model, the **triad of client, practitioner and AI system**, and re-scoped to psychology as a profession and psychological effects of AI. The structure is complete; sources are listed as candidates and have not yet been summarised. See the roadmap in [#10](https://github.com/j0hnhaas/anima-framework/issues/10).
 
 ### Added
