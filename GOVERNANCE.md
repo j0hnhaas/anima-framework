@@ -43,6 +43,8 @@ Everyone with a role in ANIMA should disclose interests that could reasonably be
 
 ### Declarations
 
+As of 2026-11-11.
+
 | Name | Role | Funding | Declared interests |
 |---|---|---|---|
-| Mag. John G. Haas | Maintainer | <!-- to be completed --> | <!-- to be completed --> |
+| Mag. John G. Haas | Maintainer | None (voluntary, independent initiative) | None declared |
