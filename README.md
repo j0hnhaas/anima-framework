@@ -1,5 +1,7 @@
 # ANIMA – AI Navigator for Informed Mental Health Applications
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24138893.svg)](https://doi.org/10.5281/zenodo.24138893)
+
 **An open European framework for AI in psychology, from WHO guidance to national law.**
 
 ANIMA brings together, in one place, what applies when artificial intelligence is used in psychology and mental health:
@@ -53,9 +55,9 @@ The framework is written in **English** so it can be used across Europe. Nationa
 
 If you use ANIMA, please cite it. The citation metadata is in [CITATION.cff](CITATION.cff); GitHub shows a ready-made citation under **"Cite this repository"** in the sidebar.
 
-> Haas, J. G. (2026). *ANIMA – AI Navigator for Informed Mental Health Applications* (Version 0.1.0) [Data set]. https://github.com/j0hnhaas/anima-framework
+> Haas, J. G. (2026). *ANIMA – AI Navigator for Informed Mental Health Applications* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24138893
 
-A DOI will be added with the first release on [Zenodo](https://zenodo.org).
+This DOI always points to the latest version. Every release is archived on [Zenodo](https://doi.org/10.5281/zenodo.24138893) with its own version DOI; use that one if you need to cite a specific version.
 
 ## Maintainer
 
