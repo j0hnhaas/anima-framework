@@ -10,7 +10,7 @@ ANIMA shows **what applies**, **what is recommended** and **what is known** when
 
 ANIMA is a navigator, not a norm. It helps people find their way through the requirements; it does not replace them.
 
-> **Status: v0.2.0 – structure complete.** The model, methodology and data format are in place. Sources are listed as candidates and have not yet been summarised. All content is `draft` until reviewed by a second person. Contributions are welcome – see [CONTRIBUTING.md](CONTRIBUTING.md).
+> **Status: v0.2.0 – structure complete.** Next steps are in the [roadmap](ROADMAP.md). The model, methodology and data format are in place. Sources are listed as candidates and have not yet been summarised. All content is `draft` until reviewed by a second person. Contributions are welcome – see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## What ANIMA covers
 
@@ -53,8 +53,9 @@ The framework can also be read at **https://j0hnhaas.github.io/anima-framework/*
 ├── search/            search log, candidate register, search flow
 ├── evidence/          research (planned)
 ├── navigator/         all requirements on the triad, with gaps (generated)
+├── guides/            practice guides for typical situations (planned)
 ├── data/              navigator as JSON and CSV (generated)
-├── docs/              scope, methodology, vocabulary, search protocol
+├── docs/              scope, methodology, vocabulary, search protocol, glossary, FAQ
 ├── templates/         template for source files
 ├── schema/            JSON Schema for source files
 ├── scripts/           validation and navigator generator
@@ -65,6 +66,10 @@ The framework can also be read at **https://j0hnhaas.github.io/anima-framework/*
 
 | Document | Content |
 |---|---|
+| [Roadmap](ROADMAP.md) | What is done, what comes next |
+| [Glossary](docs/glossary.md) | All terms of ANIMA in one place |
+| [FAQ](docs/faq.md) | Frequently asked questions |
+| [Practice guides](guides/README.md) | Guides for typical situations (planned) |
 | [Model: the triad](model/README.md) | Client, practitioner and AI system – the model every source is mapped onto |
 | [Scope and definitions](docs/scope.md) | What ANIMA covers, pillars of sources, spectrum, definitions |
 | [Methodology](docs/methodology.md) | How sources are selected, mapped onto the triad, verified and updated |
