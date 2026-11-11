@@ -4,7 +4,7 @@ SPDX-PackageDownloadLocation = "https://github.com/j0hnhaas/anima-framework"
 
 # Content: texts, guides, checklists
 [[annotations]]
-path = ["**/*.md", "REUSE.toml", "CITATION.cff", ".zenodo.json", "references.bib", ".gitignore", ".github/**"]
+path = ["**/*.md", "REUSE.toml", "CITATION.cff", ".zenodo.json", "references.bib", ".gitignore", "_config.yml", ".github/**"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2026 ANIMA contributors"
 SPDX-License-Identifier = "CC-BY-4.0"
@@ -16,9 +16,9 @@ precedence = "override"
 SPDX-FileCopyrightText = "2026 ANIMA contributors"
 SPDX-License-Identifier = "CC0-1.0"
 
-# Code and tools (planned): add LICENSES/EUPL-1.2.txt before activating
-# [[annotations]]
-# path = ["tools/**"]
-# precedence = "override"
-# SPDX-FileCopyrightText = "2026 ANIMA contributors"
-# SPDX-License-Identifier = "EUPL-1.2"
+# Code: website layout and tools
+[[annotations]]
+path = ["_layouts/**", "scripts/**"]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 ANIMA contributors"
+SPDX-License-Identifier = "EUPL-1.2"

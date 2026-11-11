@@ -7,6 +7,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ver
 ## [Unreleased]
 
 ### Added
+- Website layout for GitHub Pages with privacy-friendly page-view counting (GoatCounter, no cookies) and a privacy notice (`privacy.md`)
+- EUPL-1.2 licence for code (`LICENSES/EUPL-1.2.txt`)
 - Acknowledgements in the README: disclosure of AI assistance (Claude, ChatGPT)
 - Methodology: source selection, hierarchy (L1–L5), verification, updates, versioning, use of AI tools (`docs/methodology.md`)
 - Source summary template (`templates/source-summary.md`)
