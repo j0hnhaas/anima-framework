@@ -1,0 +1,35 @@
+name: Validate sources
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# Least privilege: the check only needs to read the repository.
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Test the validator (valid fixture must pass)
+        run: python scripts/validate.py --sources tests/fixtures/valid
+      - name: Test the validator (invalid fixture must fail)
+        run: |
+          if python scripts/validate.py --sources tests/fixtures/invalid; then
+            echo "The invalid fixture was accepted – the validator is broken."
+            exit 1
+          fi
+      - name: Validate source files
+        run: python scripts/validate.py
+      - name: Check that the navigator is up to date
+        run: python scripts/build.py --check

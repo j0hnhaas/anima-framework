@@ -7,6 +7,10 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ver
 ## [Unreleased]
 
 ### Added
+- Data format: one file per source with YAML front matter holding the source metadata and its requirements mapped onto the triad; JSON Schema (`schema/source.schema.json`)
+- Validation script (`scripts/validate.py`): schema, file location, IDs, bindingness per pillar, consistency of edges and configurations
+- Navigator generator (`scripts/build.py`): `navigator/requirements.md` with coverage and gaps, `data/navigator.json`, `data/navigator.csv`
+- Workflow that validates sources and checks the navigator in every pull request; test fixtures for the validator
 - Model: the triad of client, practitioner and AI system with edges, flows, configurations, frame and addressee (`model/README.md`)
 - Website layout for GitHub Pages with privacy-friendly page-view counting (GoatCounter, no cookies) and a privacy notice (`privacy.md`)
 - EUPL-1.2 licence for code (`LICENSES/EUPL-1.2.txt`)
@@ -22,6 +26,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ver
 - Dependabot for GitHub Actions, `.gitignore`
 
 ### Changed
+- Source template and issue form use the new fields (pillar, jurisdiction, bindingness, triad)
 - New folder structure: `sources/law`, `sources/guidance`, `sources/professional`, `evidence/` (planned) and `navigator/` replace the folders `01-who-global` to `04-national` and `crosswalk/`
 - Candidate sources revised to the new scope: psychotherapy law removed; added Council of Europe AI convention, UNESCO, OECD, Commission guidelines, Austrian authorities, EFPA, BÖP, and international references (NICE, MHRA, BfArM, FDA, APA, BPS) – all to be verified
 - Scope: psychology as a profession and psychological effects of AI; psychotherapy and psychiatry out of scope as professions (`docs/scope.md`)

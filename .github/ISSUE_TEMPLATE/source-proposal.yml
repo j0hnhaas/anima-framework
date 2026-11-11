@@ -1,5 +1,5 @@
 name: Propose a source
-description: Suggest a law, guideline, WHO document or study for ANIMA
+description: Suggest a law, guidance document or professional standard for ANIMA
 title: "[Source] "
 labels: ["source-proposal"]
 body:
@@ -10,7 +10,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you! Please check the [methodology](https://github.com/j0hnhaas/anima-framework/blob/main/docs/methodology.md) for the selection criteria.
+        Thank you! Please check the [scope](https://github.com/j0hnhaas/anima-framework/blob/main/docs/scope.md) and the selection criteria in the [methodology](https://github.com/j0hnhaas/anima-framework/blob/main/docs/methodology.md).
   - type: input
     id: title
     attributes:
@@ -25,44 +25,43 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: layer
+    id: pillar
     attributes:
-      label: Layer
+      label: Pillar
       options:
-        - WHO global
-        - WHO Europe
-        - EU
-        - National (please name the country below)
+        - Law – binding law
+        - Guidance – WHO, public bodies, authorities
+        - Professional – professional bodies of psychologists
+        - Not sure
     validations:
       required: true
-  - type: dropdown
-    id: level
+  - type: input
+    id: jurisdiction
     attributes:
-      label: Level (see methodology)
-      options:
-        - L1 – binding law
-        - L2 – official guidance by regulators
-        - L3 – WHO recommendation
-        - L4 – professional guideline or code
-        - L5 – scientific literature
-        - Not sure
+      label: Jurisdiction
+      description: global, pan-European, EU or a country
+      placeholder: e.g. EU, Austria, global
+    validations:
+      required: true
   - type: textarea
     id: relevance
     attributes:
-      label: Why is this source relevant for AI in psychology or mental health?
+      label: Why is this source relevant for psychology or for psychological effects of AI?
     validations:
       required: true
   - type: checkboxes
-    id: contexts
+    id: edges
     attributes:
-      label: Usage contexts affected
+      label: Which relationships of the triad does it concern? (optional)
+      description: See the [model](https://github.com/j0hnhaas/anima-framework/blob/main/model/README.md).
       options:
-        - label: Professional-led
-        - label: Professional-supervised
-        - label: Self-directed
+        - label: Client – practitioner (C–P)
+        - label: Client – AI system (C–AI)
+        - label: Practitioner – AI system (P–AI)
+        - label: Organisation or third parties – AI system (F–AI)
   - type: checkboxes
     id: summary
     attributes:
       label: Contribution
       options:
-        - label: I would like to write the summary myself
+        - label: I would like to write the source file myself

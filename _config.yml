@@ -14,3 +14,7 @@ exclude:
   - CITATION.cff
   - references.bib
   - "*.toml"
+  - scripts/
+  - schema/
+  - tests/
+  - requirements.txt
