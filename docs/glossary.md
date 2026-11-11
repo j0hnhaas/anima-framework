@@ -6,7 +6,7 @@ title: Glossary
 
 The terms used in ANIMA, in alphabetical order. Each entry gives a short definition and points to the document where the term is defined in full. Codes in `code style` are the values used in source files (see the [vocabulary](vocabulary.md)).
 
-> **Status:** `draft` – first version, built from the terms already defined in ANIMA. Terms from the sources (e.g. *provider* and *deployer* in the AI Act) are added as the sources are included. Progress: [#19](https://github.com/j0hnhaas/anima-framework/issues/19).
+> **Status:** `draft` – first version, built from the terms already defined in ANIMA. Terms from the sources (e.g. *provider* and *deployer* in the AI Act) are added as the sources are included. German equivalents are listed at the end. Progress: [#19](https://github.com/j0hnhaas/anima-framework/issues/19).
 
 **Addressee** – the party that must act on a requirement: `practitioner`, `provider`, `institution`, `authority` or `client`. → [Model, section 6](../model/README.md#6-addressee)
 
@@ -69,3 +69,26 @@ The terms used in ANIMA, in alphabetical order. Each entry gives a short definit
 **Topic** – a thematic group of requirements, such as `TRANS` (transparency) or `CRIS` (crisis and emergency handling). → [Vocabulary](vocabulary.md#topic)
 
 **Triad** – the model of ANIMA: client, practitioner and AI system, with their edges, flows, configurations, frame and addressees. → [Model](../model/README.md)
+
+## German terms
+
+Fixed German equivalents for the website translation (see [#23](https://github.com/j0hnhaas/anima-framework/issues/23)). *Decided* terms are binding for all German texts; *proposed* terms can still be changed.
+
+| English | German | Status |
+|---|---|---|
+| client | Klient:in | decided |
+| practitioner | Psycholog:in | decided |
+| AI system | KI-System | proposed |
+| triad | Triade | proposed |
+| edge | Kante | proposed |
+| flow | Fluss | proposed |
+| configuration | Konfiguration | proposed |
+| frame | Rahmen | proposed |
+| addressee | Adressat | proposed |
+| requirement | Anforderung | proposed |
+| gap | Lücke | proposed |
+| pillar | Säule | proposed |
+| bindingness | Verbindlichkeit | proposed |
+| navigator | Navigator | proposed |
+| practice guide | Praxisleitfaden | proposed |
+| psychological effects of AI | psychologische Wirkungen von KI | proposed |
