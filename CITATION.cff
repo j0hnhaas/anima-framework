@@ -9,7 +9,7 @@ abstract: >-
 type: dataset
 authors:
   - family-names: Haas
-    given-names: John
+    given-names: John G.
     orcid: "https://orcid.org/0000-0002-4591-5015"
 version: 0.1.0
 license: CC-BY-4.0
