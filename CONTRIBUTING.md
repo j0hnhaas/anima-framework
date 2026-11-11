@@ -7,8 +7,8 @@ Thank you for helping. ANIMA lives from the expertise of psychologists, psychoth
 ## Ways to contribute
 
 - **Propose a source:** open an issue with the document, its version and a link.
-- **Summarise a source:** add or improve a summary in the matching layer folder.
-- **Add a country:** see [04-national/README.md](04-national/README.md).
+- **Summarise a source:** add or improve a source file in the matching pillar folder (see [sources/README.md](sources/README.md)).
+- **Add a country:** see [sources/README.md](sources/README.md#adding-a-country).
 - **Report an error:** law changes. If something is outdated or wrong, open an issue.
 
 ## Rules for content

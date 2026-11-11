@@ -22,6 +22,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ver
 - Dependabot for GitHub Actions, `.gitignore`
 
 ### Changed
+- New folder structure: `sources/law`, `sources/guidance`, `sources/professional`, `evidence/` (planned) and `navigator/` replace the folders `01-who-global` to `04-national` and `crosswalk/`
+- Candidate sources revised to the new scope: psychotherapy law removed; added Council of Europe AI convention, UNESCO, OECD, Commission guidelines, Austrian authorities, EFPA, BÖP, and international references (NICE, MHRA, BfArM, FDA, APA, BPS) – all to be verified
 - Scope: psychology as a profession and psychological effects of AI; psychotherapy and psychiatry out of scope as professions (`docs/scope.md`)
 - Sources organised in pillars (law, guidance, professional; evidence planned) with jurisdiction and bindingness, replacing the geographic layers and levels L1–L5
 - Vocabulary: new codes for pillar, jurisdiction, bindingness, edge, flow, configuration, addressee and status; usage contexts replaced by the configurations of the triad (`docs/vocabulary.md`)
