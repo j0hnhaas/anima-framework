@@ -17,23 +17,24 @@ Searches recorded: **33**
 
 ## Screening of titles and summaries
 
-- Screened: **28** · pending: 38
-- Excluded: **13**
+- Screened: **36** · pending: 30
+- Excluded: **15**
   - E1 topic: 6
   - E3 issuer: 1
+  - E4 not current: 1
   - E5 duplicate: 2
-  - E6 no requirement: 3
+  - E6 no requirement: 4
   - E7 not accessible: 1
-- Passed to full-text screening: 15
+- Passed to full-text screening: 21
 
 ## Screening of full texts
 
-- Assessed: **0** · pending: 15
+- Assessed: **15** · pending: 6
 - Excluded: **0**
 - Kept as reference framework, not a source: 0 (see [framework](../docs/framework.md))
-- Unclear, to be resolved: 0
+- Unclear, to be resolved: 1
 
 ## Included
 
-- Documents included: **0**
+- Documents included: **14**
 - Of which with a source file in `sources/`: 0
