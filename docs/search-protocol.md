@@ -4,8 +4,8 @@ This protocol describes how ANIMA identifies, screens and selects sources for th
 
 | | |
 |---|---|
-| **Version** | 1.1 |
-| **Date** | 2026-11-11 |
+| **Version** | 1.3 |
+| **Date** | 2026-11-13 |
 | **Status** | in force |
 | **Applies to** | pillars `law`, `guidance`, `professional` |
 | **Not covered** | the evidence pillar (scientific literature) – it receives its own protocol before it is filled |
@@ -47,6 +47,10 @@ A document is included if **all** of the following apply:
 **Languages:** English and German. Documents in other languages are included if an official English version exists.
 
 **Drafts and proposals** (e.g. legislative proposals, consultation drafts) are not included as sources, but recorded with a note so they can be followed up.
+
+### Reference framework
+
+Some documents contain no requirement that meets criterion 1, but set out concepts and principles on which ANIMA builds – for example the WHO definition of health, the right to health or a rights-based approach to mental health. If they meet criteria 3 to 5, they are not excluded with `E6` but kept as **reference framework** (`framework` at the full-text stage). They are listed on the [framework page](framework.md), used to interpret terms and requirements, and do not appear as requirements in the navigator. A document that contains at least one requirement meeting criterion 1 is a source, even if it is mainly a foundational document. At the title stage, documents that may belong to the reference framework are passed to full-text screening.
 
 ### Exclusion reasons
 
@@ -143,6 +147,8 @@ Screening takes place in two stages, as is usual in scoping reviews:
 
 Decisions are `include`, `exclude` or `unclear`. *Unclear* at stage 1 leads to full-text screening; *unclear* at stage 2 is resolved by discussion and documented in a note.
 
+**Procedure at the full-text stage.** The full texts of all documents passed to full-text screening are placed in a private screening folder, one file per document, named with its candidate ID. The screener reads each document against the eligibility criteria and **removes** every document that is excluded; a document that needs discussion is marked (*unclear*). Documents left in the folder are included. The decisions are then transferred to the register by comparing the folder with the list of documents placed in it. For every exclusion, a reason E1–E8 is recorded; where an AI tool proposes the reason, the screener confirms or corrects it.
+
 **Screeners.** Best practice is independent screening by two people. In the [build-up phase](../GOVERNANCE.md#build-up-phase-before-v10), screening is done by one person (the maintainer). This is a **limitation** and is reported as such. Once reviewers are available, at least **20 %** of the decisions at each stage are screened independently by a second person, and agreement is reported.
 
 **Preliminary list.** Before this protocol was written, a list of likely sources was compiled from the maintainer's knowledge, with AI assistance. These documents are recorded in the register with `identified_via = preliminary` and go through the same screening as all other candidates.
@@ -166,6 +172,8 @@ Decisions are `include`, `exclude` or `unclear`. *Unclear* at stage 1 leads to f
 |---|---|---|
 | 1.0 | 2026-11-11 | First version |
 | 1.1 | 2026-11-11 | Scope extended to psychological research with AI (see [scope](scope.md#1-subject)): review question, PCC, inclusion criterion 2 and block B of the search terms adapted. Reason: WHO guidance on the ethics review of AI-related health research (`CAND-0048`) was identified in search `S-005`. Searches `S-001` to `S-017` were run under version 1.0 without the research terms; this is reported as a limitation and closed by a supplementary search. |
+| 1.2 | 2026-11-13 | Procedure at the full-text stage specified (section 8): exclusion by removing the document from the private screening folder, reasons recorded afterwards. |
+| 1.3 | 2026-11-13 | **Reference framework** introduced (section 3): foundational documents without a requirement meeting criterion 1 are kept as `framework` instead of being excluded with `E6`. Targeted search for foundational WHO documents on health, mental health and human rights added (`S-026` to `S-033`). |
 
 ## References
 

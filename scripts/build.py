@@ -165,7 +165,7 @@ def render_flow() -> str:
     reasons_full = Counter(r["exclusion_reason"] for r in rows if r["full_text_screening"] == "exclude")
     with_file = sum(1 for r in rows if r["source_id"])
     screened_title = len(rows) - title["pending"]
-    assessed_full = sum(full[k] for k in ("include", "exclude", "unclear"))
+    assessed_full = sum(full[k] for k in ("include", "exclude", "unclear", "framework"))
 
     def reasons(counter: Counter) -> list[str]:
         return [f"  - {code} {EXCLUSION_REASONS[code]}: {counter[code]}" for code in sorted(counter) if code]
@@ -190,7 +190,9 @@ def render_flow() -> str:
               f"- Assessed: **{assessed_full}** · pending: {full['pending']}",
               f"- Excluded: **{full['exclude']}**"]
     lines += reasons(reasons_full)
-    lines += [f"- Unclear, to be resolved: {full['unclear']}",
+    lines += [f"- Kept as reference framework, not a source: {full['framework']} "
+              "(see [framework](../docs/framework.md))",
+              f"- Unclear, to be resolved: {full['unclear']}",
               "", "## Included", "",
               f"- Documents included: **{full['include']}**",
               f"- Of which with a source file in `sources/`: {with_file}", ""]

@@ -45,7 +45,7 @@ Both CSV files can be opened in any spreadsheet program. Keep the column order, 
 | `search_id` | search that found it | `S-…`; empty for `preliminary` |
 | `date_identified` | date it was entered | `YYYY-MM-DD` |
 | `title_screening` | decision at stage 1 | `pending`, `include`, `exclude`, `unclear` |
-| `full_text_screening` | decision at stage 2 | `pending`, `include`, `exclude`, `unclear`, `not_reached` |
+| `full_text_screening` | decision at stage 2 | `pending`, `include`, `exclude`, `unclear`, `framework`, `not_reached` |
 | `exclusion_reason` | reason if excluded | `E1` … `E8` (see the [protocol](../docs/search-protocol.md#exclusion-reasons)) |
 | `source_id` | source file once included | `SRC-…` |
 | `screened_by` | who screened | GitHub user name(s) |
@@ -55,5 +55,6 @@ Both CSV files can be opened in any spreadsheet program. Keep the column order, 
 
 - Excluded at stage 1 → `full_text_screening` is `not_reached`, and an `exclusion_reason` is given.
 - Excluded at stage 2 → an `exclusion_reason` is given.
+- `framework` at stage 2 → the document is kept as part of the [reference framework](../docs/framework.md): no `exclusion_reason`, no `source_id`.
 - Only documents included at stage 2 receive a `source_id`.
 - Every `search_id` must exist in the search log, except for `preliminary` entries.

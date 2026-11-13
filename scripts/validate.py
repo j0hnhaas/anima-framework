@@ -181,7 +181,7 @@ def check_search(search_dir: Path) -> dict[str, list[str]]:
         reason, source_id = row["exclusion_reason"], row["source_id"]
         if title not in {"pending", "include", "exclude", "unclear"}:
             errors.append(f"{where}: unknown title_screening '{title}'")
-        if full not in {"pending", "include", "exclude", "unclear", "not_reached"}:
+        if full not in {"pending", "include", "exclude", "unclear", "framework", "not_reached"}:
             errors.append(f"{where}: unknown full_text_screening '{full}'")
         if title == "exclude" and full != "not_reached":
             errors.append(f"{where}: excluded at title screening, so full_text_screening must be not_reached")

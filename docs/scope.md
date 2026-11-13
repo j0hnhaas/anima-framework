@@ -66,7 +66,7 @@ The boundary between wellbeing and a medical purpose often depends on the intend
 
 **Client, practitioner, AI system.** The three nodes of the triad, defined in the [model](../model/README.md#1-nodes). In short: the *client* is the person with or about whom psychological work is done, or who is psychologically affected by an AI system; the *practitioner* is a psychologist who carries professional responsibility; the *AI system* is defined as in Art. 3(1) of the EU AI Act (Regulation (EU) 2024/1689).
 
-**Mental health.** ANIMA follows the broad WHO understanding: mental health is a state of mental well-being that enables people to cope with stress, realise their abilities and take part in their community. It is more than the absence of mental disorders. Source: WHO, *Mental health: strengthening our response* (fact sheet).
+**Mental health.** ANIMA follows the broad WHO understanding: mental health is a state of mental well-being that enables people to cope with stress, realise their abilities and take part in their community. It is more than the absence of mental disorders. Source: WHO, *Mental health: strengthening our response* (fact sheet). Foundational documents such as this are collected in the [reference framework](framework.md).
 
 ## 5. Out of scope
 
