@@ -11,6 +11,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ver
 - **Search log and candidate register** (`search/`), with the preliminary list of 34 candidates; generated search flow (`search/flow.md`)
 - Validation of the search log and candidate register; test fixture with deliberate errors
 - **First search: WHO and WHO/Europe** (pillar guidance, global and European): 18 searches recorded, 22 new candidates; title screening of 26 candidates – 15 passed to full-text screening, 11 excluded with reasons; supplementary search on research ethics (protocol 1.1): 7 searches, 2 new candidates
+- **Reference framework** (`docs/framework.md`): foundational documents without a requirement on AI – e.g. the WHO definition of health – are kept as `framework` instead of being excluded; targeted search for foundational WHO documents (8 searches, 8 new candidates); new register value `framework`, shown in the search flow
 - **Roadmap** (`ROADMAP.md`) with the next phases – incl. a bilingual website and further EU languages – and criteria proposed for version 1.0
 - **Glossary** (`docs/glossary.md`) with the terms defined so far; **FAQ** (`docs/faq.md`) with answers about ANIMA and planned content questions per audience; concept for **practice guides** (`guides/`)
 - Glossary and FAQ in the website navigation
@@ -19,6 +20,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Ver
 - Candidate sources moved from the pillar READMEs to the candidate register
 - **Scope** extended to a third field, **psychological research with AI**: the rules for conducting such research are covered; research findings remain in the evidence pillar. Model, methodology, README and citation metadata adapted; search protocol version 1.1
 - **Search protocol 1.2:** procedure at the full-text stage specified – excluded documents are removed from the private screening folder, reasons are recorded afterwards
+- **Search protocol 1.3:** reference framework (section 3)
 
 ## [0.2.0] – 2026-11-11
 

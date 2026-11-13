@@ -4,7 +4,7 @@ This protocol describes how ANIMA identifies, screens and selects sources for th
 
 | | |
 |---|---|
-| **Version** | 1.2 |
+| **Version** | 1.3 |
 | **Date** | 2026-11-13 |
 | **Status** | in force |
 | **Applies to** | pillars `law`, `guidance`, `professional` |
@@ -47,6 +47,10 @@ A document is included if **all** of the following apply:
 **Languages:** English and German. Documents in other languages are included if an official English version exists.
 
 **Drafts and proposals** (e.g. legislative proposals, consultation drafts) are not included as sources, but recorded with a note so they can be followed up.
+
+### Reference framework
+
+Some documents contain no requirement that meets criterion 1, but set out concepts and principles on which ANIMA builds – for example the WHO definition of health, the right to health or a rights-based approach to mental health. If they meet criteria 3 to 5, they are not excluded with `E6` but kept as **reference framework** (`framework` at the full-text stage). They are listed on the [framework page](framework.md), used to interpret terms and requirements, and do not appear as requirements in the navigator. A document that contains at least one requirement meeting criterion 1 is a source, even if it is mainly a foundational document. At the title stage, documents that may belong to the reference framework are passed to full-text screening.
 
 ### Exclusion reasons
 
@@ -169,6 +173,7 @@ Decisions are `include`, `exclude` or `unclear`. *Unclear* at stage 1 leads to f
 | 1.0 | 2026-11-11 | First version |
 | 1.1 | 2026-11-11 | Scope extended to psychological research with AI (see [scope](scope.md#1-subject)): review question, PCC, inclusion criterion 2 and block B of the search terms adapted. Reason: WHO guidance on the ethics review of AI-related health research (`CAND-0048`) was identified in search `S-005`. Searches `S-001` to `S-017` were run under version 1.0 without the research terms; this is reported as a limitation and closed by a supplementary search. |
 | 1.2 | 2026-11-13 | Procedure at the full-text stage specified (section 8): exclusion by removing the document from the private screening folder, reasons recorded afterwards. |
+| 1.3 | 2026-11-13 | **Reference framework** introduced (section 3): foundational documents without a requirement meeting criterion 1 are kept as `framework` instead of being excluded with `E6`. Targeted search for foundational WHO documents on health, mental health and human rights added (`S-026` to `S-033`). |
 
 ## References
 
