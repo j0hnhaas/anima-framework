@@ -17,12 +17,12 @@ Searches recorded: **25**
 
 ## Screening of titles and summaries
 
-- Screened: **26** · pending: 32
-- Excluded: **11**
-  - E1 topic: 5
+- Screened: **28** · pending: 30
+- Excluded: **13**
+  - E1 topic: 6
   - E3 issuer: 1
   - E5 duplicate: 2
-  - E6 no requirement: 2
+  - E6 no requirement: 3
   - E7 not accessible: 1
 - Passed to full-text screening: 15
 
