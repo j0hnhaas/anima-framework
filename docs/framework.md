@@ -16,5 +16,8 @@ ANIMA collects requirements that apply when AI enters psychological work or affe
 
 | Document | Issuer | Year | Why it matters for ANIMA | Register |
 |---|---|---|---|---|
+| [Constitution of the World Health Organization](https://www.who.int/about/governance/constitution) | World Health Organization | 1946 | Defines health as complete physical, mental and social well-being, not merely the absence of disease, and the highest attainable standard of health as a fundamental right – the basis for the broad understanding of mental health in ANIMA | `CAND-0059` |
+| [Comprehensive mental health action plan 2013–2030](https://www.who.int/publications/i/item/9789240031029) | World Health Organization | 2021 | Global objectives for mental health agreed by all Member States: leadership and governance, community-based services, promotion and prevention, information systems, evidence and research | `CAND-0060` |
+| [Guidance on policy and strategic actions to protect and promote mental health and well-being across government sectors](https://www.who.int/publications/i/item/9789240114388) | World Health Organization | 2025 | Mental health in all policies: what sectors beyond health care can do – context for psychological effects of AI outside health care | `CAND-0050` |
 
-*No documents yet. The first candidates – foundational documents of the WHO on health, mental health and human rights – are being screened.*
+Documents of the reference framework are re-checked when sources are written: if a passage – for example on digital technologies – contains a requirement that applies to AI systems, the document becomes a source.

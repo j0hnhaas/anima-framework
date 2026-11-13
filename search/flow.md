@@ -29,12 +29,12 @@ Searches recorded: **35**
 
 ## Screening of full texts
 
-- Assessed: **15** · pending: 6
+- Assessed: **21** · pending: 0
 - Excluded: **0**
-- Kept as reference framework, not a source: 0 (see [framework](../docs/framework.md))
-- Unclear, to be resolved: 1
+- Kept as reference framework, not a source: 3 (see [framework](../docs/framework.md))
+- Unclear, to be resolved: 0
 
 ## Included
 
-- Documents included: **14**
+- Documents included: **18**
 - Of which with a source file in `sources/`: 0
